@@ -1,0 +1,108 @@
+body{
+    background-color: gainsboro;
+}
+
+div#bluebox{
+    z-index: -1;
+    width: 250px;
+    height:800px;
+    background-color: #3399ff;
+    position: absolute;
+    top:0px;
+    left: 0px;
+}
+div#bluebox span{
+    z-index: 1;
+    position: relative;
+    top: 250;
+    left: 30px;
+}
+div#whitebox{
+    z-index: -1;
+    width: 160px;
+    height: 130px;
+    background-color: white;
+    position: relative;
+    top: -695;
+    right: -780px;
+}
+
+div#whitebox span{
+    z-index: -1;
+    position: relative;
+    top: 10px;
+    left: 8px;
+}
+div#ailem{
+    z-index: 1;
+    position:relative;
+    left: 10px;
+}
+div#fotom{
+    z-index: 1;
+    position: relative;
+    left: 15px;
+    top: 0px;
+}
+img.yuvarlak{
+    border-radius: 50%;
+}
+div#hosgeldin{
+    font-size: 25px;
+    position: relative;
+    top: -230;
+    left: 300;
+}
+div#duyuru{
+    z-index: 1;
+    position:absolute;
+    left: 310px;
+    top: 75px;
+}
+div#takvim{
+    z-index: 1;
+    position:relative;
+    left: 1000;
+    top: -530;
+}
+div#whitebox2{
+    z-index: -1;
+    width: 450;
+    height: 270;
+    background-color: white;
+    position: relative;
+    top: -550;
+    left: 300;
+}
+
+div#whitebox2 span{
+    z-index: -1;
+    position: relative;
+    top: 10px;
+    left: 8px;
+}
+
+div#haber1{
+    z-index: 1;
+    position: relative;
+    top: 20;
+    left: 10;
+}
+.sola-kaydir{
+    float: left;
+    padding: 0 10 0 10;
+}
+div#haber2{
+    z-index: 1;
+    position: relative;
+    top: 20;
+    left: 10;
+}
+.saga-kaydir{
+    float: left;
+    padding: 0 10 0 10;
+}
+div#menu dl{
+    position: relative;
+
+}
